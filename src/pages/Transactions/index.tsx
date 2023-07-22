@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useContext } from 'react'
 import { Header } from '../../components/Header'
 import { Summary } from '../../components/Summary'
+import { TransactionsContext } from '../../contexts/TransactionsContext'
 import { SearchForm } from './components/SearchForm'
 
 import {
@@ -8,30 +9,9 @@ import {
   TransactionsContainer,
   TransactionsTable,
 } from './styles'
-import { Description } from '@radix-ui/react-dialog'
-
-interface Transaction {
-  id: number
-  description: string
-  type: 'income' | 'outcome'
-  price: number
-  category: string
-  createdAt: string
-}
 
 export function Transactions() {
-  const [transactions, setTransactions] = useState<Transaction[]>([])
-
-  async function loadTransaction() {
-    const response = await fetch('http://localhost:3000/transactions')
-    const data = await response.json()
-
-    setTransactions(data)
-  }
-
-  useEffect(() => {
-    loadTransaction()
-  }, [])
+  const { transactions } = useContext(TransactionsContext)
 
   return (
     <div>

@@ -9,11 +9,11 @@
       "createdAt": "2023-07-22T00:58:05.768Z"
     },
     {
-      "id": 1,
-      "description": "Hamburger",
+      "id": 2,
+      "description": "Mushroom Hamburger",
       "type": "outcome",
       "category": "Alimentação",
-      "price": 80,
+      "price": 30,
       "createdAt": "2023-07-22T00:40:05.768Z"
     }
   ]
