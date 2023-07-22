@@ -4,8 +4,8 @@
       "id": 1,
       "description": "Desenvolvimento de site",
       "type": "income",
-      "category": "venda",
-      "price": 14000,
+      "category": "Venda",
+      "price": 5000,
       "createdAt": "2023-07-22T00:58:05.768Z"
     },
     {
@@ -15,6 +15,22 @@
       "category": "Alimentação",
       "price": 30,
       "createdAt": "2023-07-22T00:40:05.768Z"
+    },
+    {
+      "id": 3,
+      "description": "Promoção de vaga",
+      "type": "income",
+      "category": "Trabalho",
+      "price": 4000,
+      "createdAt": "2023-08-01T00:58:05.768Z"
+    },
+    {
+      "id": 4,
+      "description": "Aluguel do apartamento",
+      "type": "outcome",
+      "category": "Aluguel",
+      "price": 2000,
+      "createdAt": "2024-09-22T00:58:05.768Z"
     }
   ]
 }
