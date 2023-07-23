@@ -18,19 +18,35 @@
     },
     {
       "id": 3,
-      "description": "Promoção de vaga",
-      "type": "income",
-      "category": "Trabalho",
-      "price": 4000,
-      "createdAt": "2023-08-01T00:58:05.768Z"
+      "description": "Rocket One",
+      "type": "outcome",
+      "category": "Estudos",
+      "price": 1980,
+      "createdAt": "2023-07-22T00:40:05.768Z"
     },
     {
-      "id": 4,
-      "description": "Aluguel do apartamento",
+      "description": "Desenvolvimento de app",
+      "price": 3000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-07-23T19:23:18.197Z",
+      "id": 4
+    },
+    {
+      "description": "Sushi",
+      "price": 40,
+      "category": "Alimentação",
       "type": "outcome",
-      "category": "Aluguel",
-      "price": 900,
-      "createdAt": "2024-09-22T00:58:05.768Z"
+      "createdAt": "2023-07-23T19:32:33.724Z",
+      "id": 5
+    },
+    {
+      "description": "Sorvete de flocos",
+      "price": 2,
+      "category": "Alimetação",
+      "type": "outcome",
+      "createdAt": "2023-07-23T19:46:05.063Z",
+      "id": 6
     }
   ]
 }
