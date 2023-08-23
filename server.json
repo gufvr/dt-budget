@@ -1,52 +1,28 @@
 {
   "transactions": [
     {
-      "id": 1,
-      "description": "Desenvolvimento de site",
-      "type": "income",
-      "category": "Venda",
-      "price": 5000,
-      "createdAt": "2023-07-22T00:58:05.768Z"
-    },
-    {
-      "id": 2,
-      "description": "Mushroom Hamburger",
-      "type": "outcome",
-      "category": "Alimentação",
-      "price": 30,
-      "createdAt": "2023-07-22T00:40:05.768Z"
-    },
-    {
-      "id": 3,
-      "description": "Rocket One",
-      "type": "outcome",
-      "category": "Estudos",
-      "price": 1980,
-      "createdAt": "2023-07-22T00:40:05.768Z"
-    },
-    {
       "description": "Desenvolvimento de app",
-      "price": 3000,
+      "price": 5000,
       "category": "Venda",
       "type": "income",
-      "createdAt": "2023-07-23T19:23:18.197Z",
-      "id": 4
+      "createdAt": "2023-07-25T00:34:39.474Z",
+      "id": 1
     },
     {
-      "description": "Sushi",
-      "price": 40,
-      "category": "Alimentação",
+      "description": "Aluguel",
+      "price": 1250,
+      "category": "Despesas",
       "type": "outcome",
-      "createdAt": "2023-07-23T19:32:33.724Z",
-      "id": 5
+      "createdAt": "2023-07-25T00:35:01.511Z",
+      "id": 2
     },
     {
       "description": "Sorvete de flocos",
-      "price": 2,
+      "price": 3,
       "category": "Alimentação",
       "type": "outcome",
-      "createdAt": "2023-07-23T19:46:05.063Z",
-      "id": 6
+      "createdAt": "2023-07-25T00:35:21.762Z",
+      "id": 3
     }
   ]
 }
