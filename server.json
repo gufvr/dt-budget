@@ -1,28 +1,5 @@
 {
   "transactions": [
-    {
-      "description": "Desenvolvimento de app",
-      "price": 5000,
-      "category": "Venda",
-      "type": "income",
-      "createdAt": "2023-07-25T00:34:39.474Z",
-      "id": 1
-    },
-    {
-      "description": "Aluguel",
-      "price": 1250,
-      "category": "Despesas",
-      "type": "outcome",
-      "createdAt": "2023-07-25T00:35:01.511Z",
-      "id": 2
-    },
-    {
-      "description": "Sorvete de flocos",
-      "price": 3,
-      "category": "Alimentação",
-      "type": "outcome",
-      "createdAt": "2023-07-25T00:35:21.762Z",
-      "id": 3
-    }
+    {}
   ]
 }
